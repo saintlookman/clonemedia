@@ -1,0 +1,237 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+#nav-bar{
+    /* background-color: #fec5e5; */
+    background-color: #fff;
+    position: sticky;
+    top:0;
+    z-index:10;
+}
+
+.navbar-brand img{
+    height: 40px;
+    width: 60px;
+    padding-left: 5px;
+}
+
+.coy-name{
+    font-family: 'Courier New', Courier, monospace; 
+    font-size: 30px;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+.coy-name:hover{
+    text-decoration: none;
+
+}
+
+#name1{
+    color: lime;
+}
+
+#name2{
+    color:blue;
+}
+
+#name3{
+    color: red;
+}
+
+#name4{
+    color: red;
+}
+
+
+
+.navbar-nav li{
+    padding: 0 10px;
+    }
+
+.navbar-nav li a{
+    float: right;
+    text-align: left; 
+    
+}
+
+
+
+#nav-bar ul li a:hover{
+    color: blue!important;
+}
+
+.navbar-toggler{
+    border: none!important;
+}
+
+.nav-link
+{
+    color: purple!important;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+#slider{
+    margin: 0px auto;
+    width:100%;
+              
+ }
+
+ #slider .carousel-inner .carousel-item img{
+    height: 600px;
+    
+}
+
+#about{
+    /* background-color: lightpink; */
+}
+
+#about p{
+    font-size: 35px;
+    text-align: center;
+}
+
+#principles{
+    background-color: lightpink;
+    margin: 100px 0 0px 0;
+}
+
+.principles .column{
+    text-align: left;
+    color: black;
+    padding: 50px 50px;
+
+}
+.principles .column p{
+    font-size: 20px;
+
+}
+
+.principles .column h2{   
+    font-size: 30px;
+    
+}
+
+
+#services{
+    background-image: linear-gradient(rgba(0,0,0,0.9), rgba(0,0,0,0.9)), url(images/Lagos-arial.jpg);
+    background-size: cover;
+    background-position: center;
+    color: #efefef !important;
+    background-attachment: fixed;
+    padding: 20px 0 30px 0;
+}
+
+h1{
+    text-align: center;
+    color:white;
+    text-decoration: underline;
+    padding: 0 0 10px 0;
+}
+
+#services h1 a::after{
+    content: '';
+    background: #efefef ;
+    display: block;
+    height: 3px;
+    width: 170px;
+    margin: 20px auto 5px;
+}
+
+.services{
+    margin: 50px auto ;
+}
+
+.services h3{
+    color:white;
+}
+
+.icon{
+    font-size: 100px;
+    margin: 10px auto;
+    padding: 5px;
+    width: 150px;
+    height: 150px;
+    color: lime;
+    /* border: 0px solid #fff;
+    border-radius: 25%; */
+    
+}
+
+.services .columns:hover{
+    background-color: #007bff;
+    cursor: pointer;
+    transition: 0.5s;
+
+}
+
+.services .columns2:hover{
+    background-color: #007bff;
+    cursor: pointer;
+    transition: 0.5s;
+
+}
+
+
+#footer-container{
+    
+    width: 100%;
+    background-color: purple;
+}
+
+#footer-content{
+    padding: 10px 0px;
+    height: 50px;
+    
+}
+
+#footer-content p{
+    text-align: center;
+    color:white;
+    font-size: 20px;
+}
+
+
+/* Contact Us*/
+#contact{
+    margin: 0px auto;
+    background: #efefef;
+    padding: 40px auto;
+    color: #777;
+}
+
+#contact .container h1{
+    margin: 10px auto;
+    text-align: center;
+    color: black;
+}
+
+.contact-form{
+    padding: 15px;
+}
+.form-control{
+    border-radius: 0 !important;
+    border:none !important;
+}
+
+:: placeholder
+{
+    color: #999 !important;
+}
+
+.follow{
+    background: #fff;
+    padding: 10px;
+    margin: 15px;
+    
+}
+
+.contact-info .fa{
+    margin: 10px;
+    color: lime;
+    font-weight: bolder;
+}
